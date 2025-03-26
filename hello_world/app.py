@@ -32,6 +32,7 @@ def lambda_handler(event, context):
     #     print(e)
 
     #     raise e
+
     if True:
         raise Exception("This will cause a deployment rollback")
 
